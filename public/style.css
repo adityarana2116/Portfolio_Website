@@ -159,7 +159,7 @@ body{
     width: 30%;
     height: 65%;
     border-radius: 50%;
-    background-image: url("./Images/photo.png");
+    background-image: url("../Images/photo.png");
     background-size: cover;
     background-position: top 1%;
 }

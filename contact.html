@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Rana</title>
     <script src="https://kit.fontawesome.com/cb7cb99062.js"></script>
-    <link href="./style.css" rel="stylesheet"></style>
+    <link href="./public/style.css" rel="stylesheet"></style>
 </head>
 <body>
     <section id="header">
@@ -35,12 +35,12 @@
             <h4><strong>Email</strong></h4>
             <p>adityarana2116@gmail.com</p>
         </div>
-        <form action="">
+        <form action="/" method="post">
             <span>Leave a Message</span>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="text" placeholder="Your Name" name="name">
+            <input type="email" placeholder="Email" name="email">
+            <input type="text" placeholder="Subject" name="subject">
+            <textarea id="" cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
             <button class="normal">Submit</button>
         </form>
     </section>
@@ -67,7 +67,6 @@
             <p>© 2023, Aditya Rana Portfolio</p>
         </div>
     </footer>
-
     <script src="./script.js"></script>
 </body>
 </html>
